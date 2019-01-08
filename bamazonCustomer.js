@@ -58,7 +58,7 @@ function inventory(){
         (err,res)=>
         {
             if (err) throw err;
-            console.log("Your total for " +answer.quantity + " order(s) is: $"+ answer.quantity*selectPrice);    
+            console.log("Your total for " +answer.quantity + " order(s) is: $"+ (answer.quantity*selectPrice).toFixed(2));    
         }
     );
     }

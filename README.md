@@ -24,7 +24,7 @@ npm i inquirer
 
 before beginning.
 
-## Running the Application
+## Running the Application as a CUSTOMER
 
 After running
 
@@ -40,29 +40,29 @@ in the terminal,  a list of purchasable items will be displayed:
 
 To purchase items enter the ID of the item you would like to purchase into the terminal. The terminal will also ask how many items you would like to buy, along with the total cost to the user.
 
-<img src="assets/bamazon-checkout.jpg" alt="Checkout Example">
+<img src="assets/bamazon-checkout.JPG" alt="Checkout Example">
 
 Rerunning the terminal command, the quantity left will be updated depending on the quantity the user has input.
 
 
-<img src="assets/bamazon-aftercheckout.jpg" alt="Checkout Example">
+<img src="assets/bamazon-aftercheckout.JPG" alt="Checkout Example">
 
 The mySQL database also automatically updates depending on the user input. Pay particular attention to the stock_quantity of  item_id 10, where the user orders 3 quantities.
 
 ### Before Inquiry
-<img src="assets/mysql-before.jpg" alt="mySQL Before Example" width="80%">
+<img src="assets/mysql-before.JPG" alt="mySQL Before Example" width="80%">
 
 ### After Inquiry
-<img src="assets/mysql-after.jpg" alt="mySQL Before Example" width="80%">
+<img src="assets/mysql-after.JPG" alt="mySQL Before Example" width="80%">
 
 ## Out of Stock Inquiries
 If the amount that the customer orders exceeds the amount currently in the storage,the order will automatically be cancelled, prompting the user to either select a lower quantity or a different item.
 
-<img src="assets/outofstock.jpg" alt="mySQL Before Example" width="80%">
+<img src="assets/outofstock.JPG" alt="mySQL Before Example" width="80%">
 
 This invalid inquiry leaves the database uneffected.
 
-<img src="assets/outofstock-mysql.jpg" alt="mySQL Before Example" width="80%">
+<img src="assets/outofstock-mysql.JPG" alt="mySQL Before Example" width="80%">
 
 
 
